@@ -11,7 +11,7 @@ const About = () => {
       <section className="main-content-box">
         <h2 id="about-me">About Me</h2>
           <div className="about-container">
-            <img className="about-img" src="./public/Sarah-Makela.jpg" alt="Sarah Mäkelä" />
+            <img className="about-img" src="Sarah-Makela.jpg" alt="Sarah Mäkelä" />
             <div className="about-text">
               <p> 
                 Welcome to my portfolio! I'm a Full Stack Web Developer with a publishing industry background.
