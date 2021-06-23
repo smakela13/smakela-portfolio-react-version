@@ -1,17 +1,16 @@
 import React from 'react';
+import {Image} from 'react-bootstrap';
 
 const About = () => {
 	return (
 		<div
 			style={{
-				display: 'flex',
 				justifyContent: 'Right',
 				alignItems: 'Right',
 			}}>
       <section className="main-content-box">
         <h2 id="about-me">About Me</h2>
-          <div className="about-container">
-            <img className="about-img" src="Sarah-Makela.jpg" alt="Sarah Mäkelä" />
+            <Image className="about-img" src="Sarah-Makela.jpg" alt="Sarah Mäkelä" roundedCircle fluid />
             <div className="about-text">
               <p> 
                 Welcome to my portfolio! I'm a Full Stack Web Developer with a publishing industry background.
@@ -26,7 +25,6 @@ const About = () => {
                 Take a look below to see what I've included in my portfolio. You can also view my GitHub repository for more projects. Feel free to contact me via email or through LinkedIn.
               </p>
             </div>
-          </div>
         </section>
 		</div>
 	);
