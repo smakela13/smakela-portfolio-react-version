@@ -11,16 +11,18 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <Router>
-    <Navbar />
-    <Switch>
-      <Route path='/' exact component={About} />
-      <Route path='/contact-me' component={Contact} />
-      <Route path='/portfolio' component={Portfolio} />
-      <Route path='/resume' component={Resume} />
-      </Switch>
-    <Footer />
-    </Router>
+		<Router>
+			<div className='supDiv'>
+				<Navbar />
+				<Switch>
+					<Route path='/' exact component={About} />
+					<Route path='/contact-me' component={Contact} />
+					<Route path='/portfolio' component={Portfolio} />
+					<Route path='/resume' component={Resume} />
+				</Switch>
+				<Footer />
+			</div>
+		</Router>
   );
 }
 

@@ -4,8 +4,8 @@ import {Navbar, Nav} from 'react-bootstrap';
 const Navigation = () => {
 	return (
 		<>
-			<Navbar collapseOnSelect sticky='top' expand='sm' bg='dark' variant='dark'>
-				<Navbar.Brand>Sarah Mäkelä</Navbar.Brand>
+			<Navbar collapseOnSelect sticky='top' expand='sm' bg='dark' variant='dark' className='header'>
+				<Navbar.Brand className='header-nav'>Sarah Mäkelä</Navbar.Brand>
 				<Navbar.Toggle aria-controls='responsive-navbar-nav' />
 				<Navbar.Collapse id='responsive-navbar-nav'>
 					<Nav className='mr-auto'>

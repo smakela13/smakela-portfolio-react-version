@@ -3,11 +3,7 @@ import {Image} from 'react-bootstrap';
 
 const About = () => {
 	return (
-		<div
-			style={{
-				justifyContent: 'Right',
-				alignItems: 'Right',
-			}}>
+		<div>
       <section className="main-content-box">
         <h2 id="about-me">About Me</h2>
             <Image className="about-img" src="Sarah-Makela.jpg" alt="Sarah Mäkelä" roundedCircle fluid />
