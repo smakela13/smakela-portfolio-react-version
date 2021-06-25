@@ -1,99 +1,53 @@
 import React from 'react';
+import {useForm} from 'react-hook-form';
 
 const Contact = () => {
-	return (
+  const { register, handleSubmit, watch, formState: { errors } } = useForm();
+  const onSubmit = data => console.log(data);
+
+  console.log(watch("example")); // watch input value by passing the name of it
+
+  return (
 		<div>
-			<body>
-				<section className='main-content-box'>
-					<h1 id='contact-me'>Contact Me</h1>
-					<p>
-						Feel free to reach out and contact me at any one of these 3
-						locations! Email is Prefered!
-					</p>
-					<br />
-					<div class='contact d-flex justify-content-around'>
-						<a href='https://github.com/lordgeer'>
-							<img
-								class='mash'
-								src='/images/GitHub-Mark-64px.png'
-								alt='GitHub'
-							/>
-						</a>
-						<a href='mailto:thomas.g.musler@gmail.com'>
-							<img
-								class='mash'
-								src='/images/Gmail-logo.jpg'
-								alt='Email'
-							/>
-						</a>
-						<a href='https://www.linkedin.com/in/thomas-musler-031752178/'>
-							<img
-								class='mash'
-								src='/images/LI-In-Bug.png'
-								alt='LinkedIn'
-							/>
-						</a>
-					</div>
-					<div className='section'>
-						<div className='container'>
-							<div className='row'>
-								<div className='col-md-12'>
-									<div className='section-title'>
-										<hr />
-										<form id='contact-form'>
-											<div className='form-group'>
-												<div className='row'>
-													<div className='col-md-6'>
-														<input
-															placeholder='Name'
-															id='name'
-															type='text'
-															className='form-control'
-														/>
-													</div>
-													<div className='col-md-6'>
-														<input
-															placeholder='Email'
-															id='email'
-															type='email'
-															className='form-control'
-														/>
-													</div>
-												</div>
-											</div>
-											<div className='form-group'>
-												<input
-													placeholder='Subject'
-													id='subject'
-													type='text'
-													className='form-control'
-												/>
-											</div>
-											<div className='form-group'>
-												<textarea
-													placeholder='Message'
-													id='message'
-													className='form-control'
-												/>
-											</div>
-											<button
-												type='submit'
-												className='primary-btn submit'>
-												Submit
-											</button>
-										</form>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-			</body>
-			<script
-				src='https://unpkg.com/react/umd/react.production.min.js'
-				crossorigin></script>
+			<section className='main-content-box'>
+				<h2 id='about-me'>Contact Me</h2>
+				{/* "handleSubmit" will validate your inputs before invoking "onSubmit"
+				 */}
+				<form onSubmit={handleSubmit(onSubmit)}>
+					<label>Name:</label>
+					<input
+						type='text'
+						{...register('fullName', { required: true, maxLength: 80 })}
+						id='fullName'
+					/>
+
+					<label>Email Address:</label>
+					<input
+						type='text'
+						{...register('Email', {
+							required: true,
+							pattern:
+								/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+						})}
+						id='emailAddress'
+					/>
+
+					<label>Message:</label>
+					<input
+						type='text'
+						{...register('Message', { required: true })}
+						id='message'
+					/>
+
+					{errors.fullName && <p>Name is required.</p>}
+					{errors.Email && <p>Please enter a valid email address.</p>}
+					{errors.Message && <p>A message is required.</p>}
+
+					<input type='submit' />
+				</form>
+			</section>
 		</div>
-	);
+  );
 };
 
 export default Contact;
