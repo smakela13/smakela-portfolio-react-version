@@ -33,7 +33,7 @@ const Contact = () => {
 					/>
 
 					<label>Message:</label>
-					<input
+					<textarea
 						type='text'
 						{...register('Message', { required: true })}
 						id='message'
