@@ -4,6 +4,8 @@ import {useForm} from 'react-hook-form';
 const Contact = () => {
   const { register, handleSubmit, watch, formState: { errors } } = useForm();
   const onSubmit = data => console.log(data);
+  const message = watch('Message') || '';
+  const messageCharsLeft = 1500 - message.length;
 
   console.log(watch("example")); // watch input value by passing the name of it
 
@@ -20,6 +22,7 @@ const Contact = () => {
 						{...register('fullName', { required: true, maxLength: 80 })}
 						id='fullName'
 					/>
+					{errors.fullName && <p>Name is required.</p>}
 
 					<label>Email Address:</label>
 					<input
@@ -27,21 +30,20 @@ const Contact = () => {
 						{...register('Email', {
 							required: true,
 							pattern:
-								/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+								/[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/g,
 						})}
 						id='emailAddress'
 					/>
+					{errors.Email && <p>Enter a valid email address.</p>}
 
 					<label>Message:</label>
 					<textarea
 						type='text'
-						{...register('Message', { required: true })}
+						{...register('Message', { required: true, maxLength: 1500 })}
 						id='message'
 					/>
-
-					{errors.fullName && <p>Name is required.</p>}
-					{errors.Email && <p>Please enter a valid email address.</p>}
-					{errors.Message && <p>A message is required.</p>}
+					<p className='message-chars-left'>{messageCharsLeft}/1500</p>
+					{errors.Message && <p>Message is required.</p>}
 
 					<input type='submit' />
 				</form>
