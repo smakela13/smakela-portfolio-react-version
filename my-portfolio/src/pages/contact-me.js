@@ -1,16 +1,16 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import emailjs, {init} from 'emailjs-com';
 
 init(process.env.REACT_APP_USER_ID);
 
 const Contact = () => {
-	const [statusMessage, setStatusMessage] = useState('Message');
+  const [statusMessage, setStatusMessage] = useState('Message');
 
-	function sendEmail() {
+  function sendEmail(e) {
 		e.preventDefault();
 
-		const form = document.getElementById('contact-form');
-		const statusMsg = document.getElementById('status-message');
+    const form = document.querySelector('#contact');
+    const statusMsg = document.querySelector('.status-message');
 
 		emailjs
 			.sendForm(
@@ -38,7 +38,7 @@ const Contact = () => {
     });
   }
 
-	return (
+  return (
 		<div>
 			<section className='main-content-box'>
 				<h2 id='about-me'>Contact Me</h2>
@@ -56,13 +56,13 @@ const Contact = () => {
 
 					<label>Message:</label>
 					<textarea type='text' name='message' maxLength='1500' required />
-
+					
 					<p className='status-message'>{statusMessage}</p>
 					<input type='submit' value='Send' />
 				</form>
 			</section>
 		</div>
-	);
+  );
 };
 
 export default Contact;
