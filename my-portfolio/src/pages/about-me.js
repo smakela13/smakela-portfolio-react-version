@@ -6,7 +6,7 @@ const About = () => {
 		<div>
       <section className="main-content-box">
         <h2 id="about-me">About Me</h2>
-            <Image className="about-img" src="Sarah-Makela.jpg" alt="Sarah Mäkelä" roundedCircle fluid />
+            <Image className="about-img" src="Soma-Makela.jpg" alt="Soma Mäkelä" roundedCircle fluid />
             <div className="about-text">
               <p> 
                 Welcome to my portfolio! I'm a Full Stack Web Developer with a publishing industry background.
