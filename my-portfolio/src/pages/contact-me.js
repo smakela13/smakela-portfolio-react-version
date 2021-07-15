@@ -1,15 +1,44 @@
-import React from 'react';
-import {useForm} from 'react-hook-form';
+import React, { useState } from 'react';
+import emailjs, {init} from 'emailjs-com';
+
+init(process.env.REACT_APP_USER_ID);
 
 const Contact = () => {
-  const { register, handleSubmit, watch, formState: { errors } } = useForm();
-  const onSubmit = data => console.log(data);
-  const message = watch('Message') || '';
-  const messageCharsLeft = 1500 - message.length;
+	const [statusMessage, setStatusMessage] = useState('Message');
 
-  console.log(watch("example")); // watch input value by passing the name of it
+	function sendEmail() {
+		e.preventDefault();
 
-  return (
+		const form = document.getElementById('contact-form');
+		const statusMsg = document.getElementById('status-message');
+
+		emailjs
+			.sendForm(
+				'contact_form',
+				'template_contact',
+				e.target,
+			)
+			.then(
+        (result) => {
+          form.reset();
+          console.log(result.text);
+          setStatusMessage('Message sent!');
+          statusMsg.className = 'status-message';
+          setTimeout(() => {
+            statusMsg.className = 'status-message';
+				}, 5000);
+				},
+				(error) => {
+					console.log(error.text);
+          setStatusMessage('Failed to send message! Try again later.');
+          statusMsg.className = 'status-message';
+          setTimeout(() => {
+            statusMsg.className = 'status-message';
+				}, 5000);
+    });
+  }
+
+	return (
 		<div>
 			<section className='main-content-box'>
 				<h2 id='about-me'>Contact Me</h2>
@@ -49,7 +78,7 @@ const Contact = () => {
 				</form>
 			</section>
 		</div>
-  );
+	);
 };
 
 export default Contact;
