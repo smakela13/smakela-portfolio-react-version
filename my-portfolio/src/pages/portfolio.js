@@ -1,5 +1,5 @@
 import React from 'react';
-import Project from './components/Project';
+import Project from '../components/Project';
 
 const projectList = [
 	{
@@ -45,15 +45,15 @@ const projectList = [
 ];
 
 const Portfolio = () => {
+	projectList.map((project, i) => (
+		<Project key={i} {...project} />
+	));
+
 	return (
-		<div
-			style={{
-				display: 'flex',
-				justifyContent: 'Right',
-				alignItems: 'Right',
-				height: '100vh',
-			}}>
-			<h1>GeeksforGeeks is a Computer Science portal for geeks.</h1>
+		<div>
+			{projectList.map((project, i) => (
+		<Project key={i} {...project} />
+	))}
 		</div>
 	);
 };

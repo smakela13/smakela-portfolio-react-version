@@ -12,7 +12,7 @@ const Project = ({project}) => {
 							<Card>
 								<Card.Img variant='top' src={project.image} alt={project.description} />
 								<Card.Body>
-									<Card.Title>{project.name}</Card.Title>
+									<Card.Title>{project.title}</Card.Title>
 									<Card.Text>
 										{project.description}
 										<Button href={project.repo}>Repository</Button>
