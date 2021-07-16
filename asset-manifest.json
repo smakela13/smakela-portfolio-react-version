@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/smakela-portfolio-react-version/static/css/main.5b73d164.chunk.css",
-    "main.js": "/smakela-portfolio-react-version/static/js/main.bebb1353.chunk.js",
-    "main.js.map": "/smakela-portfolio-react-version/static/js/main.bebb1353.chunk.js.map",
+    "main.js": "/smakela-portfolio-react-version/static/js/main.ea2f7c09.chunk.js",
+    "main.js.map": "/smakela-portfolio-react-version/static/js/main.ea2f7c09.chunk.js.map",
     "runtime-main.js": "/smakela-portfolio-react-version/static/js/runtime-main.e744e1c7.js",
     "runtime-main.js.map": "/smakela-portfolio-react-version/static/js/runtime-main.e744e1c7.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/smakela-portfolio-react-version/static/css/2.4c97ca4f.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.02da3655.chunk.js",
     "static/css/main.5b73d164.chunk.css",
-    "static/js/main.bebb1353.chunk.js"
+    "static/js/main.ea2f7c09.chunk.js"
   ]
 }
