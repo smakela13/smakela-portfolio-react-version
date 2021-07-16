@@ -10,7 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-		<Router basename='/smakela-portfolio-react-version/'>
+		<Router>
 			<div className='supDiv'>
 				<Navbar />
 				<Switch>
