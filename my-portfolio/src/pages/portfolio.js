@@ -7,7 +7,7 @@ const projectList = [
 		description:
 			'An auction house interface for roleplaying game masters and players to buy, sell, and trade in-game items for fun and profit. Written using JavaScript, Handlebars, Sequelize, MySQL/JawsDB, Heroku, and Tailwind CSS.',
 		url: 'https://tabletop-auction-house.herokuapp.com/',
-		image: 'shop-screenshot.png',
+		image: '/shop-screenshot.png',
 		repo: 'https://github.com/smakela13/Tabletop_Auction_House',
 	},
 	{
@@ -15,7 +15,7 @@ const projectList = [
 		description:
 			'A search engine with a map to adopt the right pet for you. Features dynamically updated HTML and CSS powered by Materialize CSS, JavaScript, and uses server-side APIs: PetFinder, Leaflet.JS, and Mapbox.',
 		url: 'https://smakela13.github.io/project-buddy-finder/',
-		image: 'project-buddy-finder-history-screenshot_1.png',
+		image: '/project-buddy-finder-history-screenshot_1.png',
 		repo: 'https://github.com/smakela13/project-buddy-finder',
 	},
 	{
@@ -23,7 +23,7 @@ const projectList = [
 		description:
 			'A workout tracker to log multiple exercises. Written using Express.js, Mongoose, Node.js, MongoDB Atlas, HTML, and CSS. Deployed on Heroku.',
 		url: 'https://frozen-anchorage-27658.herokuapp.com/',
-		image: 'last-workout-screenshot.png',
+		image: '/last-workout-screenshot.png',
 		repo: 'https://github.com/smakela13/workout-tracker',
 	},
 	{
@@ -31,7 +31,7 @@ const projectList = [
 		description:
 			'Blogging platform written using JavaScript, Express.js, Sequelize, MySQL/JawsDB, Handlebars, and CSS.',
 		url: 'https://frozen-hollows-70537.herokuapp.com/',
-		image: 'index-screenshot.png',
+		image: '/index-screenshot.png',
 		repo: 'https://github.com/smakela13/tech-blog',
 	},
 	{
@@ -39,7 +39,7 @@ const projectList = [
 		description:
 			'Weather dashboard that dynamically updates. Uses OpenWeather API, JavaScript, HTML, CSS.',
 		url: 'https://smakela13.github.io/weather-dashboard/',
-		image: 'smakela-weather-dashboard.png',
+		image: '/smakela-weather-dashboard.png',
 		repo: 'https://github.com/smakela13/weather-dashboard',
 	},
 	{
@@ -47,7 +47,7 @@ const projectList = [
 		description:
 			'Work day scheduler to help plan your day written with jQuery, MomentJS, Bootstrap, and HTML.',
 		url: 'https://smakela13.github.io/work-day-calendar/index.html',
-		image: 'work-day-scheduler.png',
+		image: '/work-day-scheduler.png',
 		repo: 'https://github.com/smakela13/work-day-calendar',
 	},
 	{
@@ -55,7 +55,7 @@ const projectList = [
 		description:
 			'Quiz about JavaScript written in JavaScript, HTML5, and CSS.',
 		url: 'https://smakela13.github.io/javascript-quiz/index.html',
-		image: 'javascript-quiz.png',
+		image: '/javascript-quiz.png',
 		repo: 'https://github.com/smakela13/javascript-quiz',
 	},
 ];

@@ -20,7 +20,7 @@ const Project = ({ project }) => {
 						<Card.Img
 							variant='top'
 							style={{ width: '100%' }}
-							src={project.image}
+							src={process.env.PUBLIC_URL + project.image}
 							alt={project.description}
 						/>
 						<Card.Body>
@@ -28,11 +28,13 @@ const Project = ({ project }) => {
 								{project.description}
 							</Card.Text>
 						</Card.Body>
-						<Card.Footer>
-							<Button className='mx-1' href={project.repo}>
+						<Card.Footer className='card-header'>
+							<Button className='m-1 btn-dark' href={project.repo}>
 								Repository
 							</Button>
-							<Button href={project.url}>Deployed Project</Button>
+							<Button className='m-1 btn-dark' href={project.url}>
+								Deployed Project
+							</Button>
 						</Card.Footer>
 					</Card>
 				</CardGroup>

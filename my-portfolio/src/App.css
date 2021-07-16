@@ -98,27 +98,11 @@ a:hover {
   justify-content: flex-end;
 }
 
-header nav ul {
-  list-style-type: none;
-}
-
-header nav ul li {
-  display: inline-block;
-  margin-right: 50px;
-}
-
-header nav ul li a {
-  color: var(--champagne);
+#responsive-navbar-nav > div > a.portfolio-nav-links.active.nav-link {
+  color: #F4EFC9;
   text-decoration: underline solid var(--chestnut);
   text-decoration-thickness: 7px;
-}
-
-.head-image {
-  height: 300px;
-  width: 100%;
-  /*background-image: url("../images/feathers-header.jpg");*/
-  background-size: cover;
-  background-position: center;
+  font-size: 1.3em;
 }
 
 /* Main Content */
@@ -154,8 +138,14 @@ header nav ul li a {
 
 /* Work */
 .card {
-  background-color: var(--middleGrey);
+  background-color: var(--champagne);
   padding: 10px;
+}
+
+.card-header {
+  padding: 10px;
+  background-color: var(--chestnut);
+  border-bottom: 1px solid var(--chestnut);
 }
 
 .card-deck {
@@ -163,8 +153,13 @@ header nav ul li a {
   margin-bottom: 5px;
   width: 20em;
 }
+.card-footer {
+  display: flex;
+  justify-content: space-around;
+}
 
 .card-title {
+  background-color: var(--chestnut);
   text-align: center;
   color: var(--raisinBlack);
   font-size: 21px;
