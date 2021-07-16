@@ -1,7 +1,7 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+import Header from './components/Header';
 import Footer from './components/Footer';
-import {BrowserRouter, Switch, Route} from 'react-router-dom';
+import {Switch, Route} from 'react-router-dom';
 import About from './pages/about-me';
 import Contact from './pages/contact-me';
 import Portfolio from './pages/portfolio';
@@ -10,17 +10,15 @@ import './App.css';
 
 function App() {
   return (
-		<BrowserRouter>
-			<div className='supDiv'>
-				<Navbar />
-				<Switch>
-					<Route exact path='/' component={About} />
-					<Route exact path='/contact-me' component={Contact} />
-					<Route exact path='/portfolio' component={Portfolio} />
-				</Switch>
-				<Footer />
-			</div>
-		</BrowserRouter>
+		<div className='supDiv'>
+			<Header />
+			<Switch>
+				<Route exact path='/contact-me' component={Contact} />
+				<Route exact path='/portfolio' component={Portfolio} />
+				<Route exact path='/' component={About} />
+			</Switch>
+			<Footer />
+		</div>
   );
 }
 

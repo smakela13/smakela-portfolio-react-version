@@ -1,34 +1,4 @@
-.App-header {
-  background-color: #887a6f;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #887a6f;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 /* Page styles */
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
 :root {
     --middleGrey: #887a6f;
     --quickSilver: #9DA5A8;
@@ -50,17 +20,18 @@ html {
     height: 100%;
 }
 
-h1 {
-    font-size: 60px;
-    margin-left: 50px;
-    font-family: 'Merienda', cursive;
-    color: var(--champagne);
-}
-
 h2 {
   margin-bottom: 15px;
   margin-right: 20px;
   font-size: 36px;
+  font-family: 'Montserrat', Calibri, 'Trebuchet MS', sans-serif;
+  color: var(--raisinBlack);
+}
+
+h3 {
+  margin-bottom: 15px;
+  margin-right: 20px;
+  font-size: 30px;
   font-family: 'Montserrat', Calibri, 'Trebuchet MS', sans-serif;
   color: var(--raisinBlack);
 }
@@ -73,36 +44,20 @@ p {
   line-height: 150%;
 }
 
-a {
-  color: var(--raisinBlack);
-  text-decoration: underline;
-}
-
-a:hover {
-  color: #FF0000;
-}
-
-/* Header, header nav, header image */
+/* Header, header nav */
 .header {
-  padding: 20px;
+  padding: 15px;
   background-color: var(--raisinBlack);
   background-image: linear-gradient(315deg, #494949 18%, var(--raisinBlack) 54%);
   margin-bottom: .5em;
   display: flex;
 }
 
-.header-nav {
-  padding-top: 15px;
-  font-family: 'Montserrat', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 30px;
-  justify-content: flex-end;
-}
-
 #responsive-navbar-nav > div > a.portfolio-nav-links.active.nav-link {
   color: #F4EFC9;
   text-decoration: underline solid var(--chestnut);
   text-decoration-thickness: 7px;
-  font-size: 1.3em;
+  font-size: 30px;
 }
 
 /* Main Content */
@@ -117,13 +72,6 @@ a:hover {
   box-shadow: 5px 5px 5px var(--raisinBlack);
 }
 
-.main-content img {
-  max-width: 100%;
-  max-height: auto;
-  border-radius: 10px;
-  border: 5px var(--chestnut) solid;
-}
-
 /* About Me */
 .about-img {
   float: left;
@@ -136,50 +84,37 @@ a:hover {
   padding: 2px;
 }
 
-/* Work */
+/* Portfolio */
 .card {
-  background-color: var(--champagne);
-  padding: 10px;
+  background-color: #9DA5A8;
+  padding: 1px;
 }
 
 .card-header {
-  padding: 10px;
-  background-color: var(--chestnut);
+  width: 100%;
+  background-color: var(--middleGrey);
   border-bottom: 1px solid var(--chestnut);
 }
 
-.card-deck {
-  padding: 2px;
-  margin-bottom: 5px;
-  width: 20em;
-}
 .card-footer {
   display: flex;
   justify-content: space-around;
 }
 
 .card-title {
-  background-color: var(--chestnut);
+  background-color: var(--middleGrey);
   text-align: center;
   color: var(--raisinBlack);
-  font-size: 21px;
+  font-size: 24px;
 }
 
 .card-text {
-  text-align: center;
+  text-align: justify;
   color: var(--raisinBlack);
   font-size: 18px;
 }
 
 /* Contact */
-.contact img {
-  display: inline-flex;
-  border: none;
-  margin: 10px;
-  width: 75px;
-  height: auto;
-}
-
 form {
   max-width: 500px;
   margin: 0 auto;
@@ -190,7 +125,7 @@ input {
   box-sizing: border-box;
   width: 100%;
   border-radius: 4px;
-  border: 1px solid white;
+  border: 1px solid black;
   padding: 10px 15px;
   margin-bottom: 10px;
   font-size: 14px;
@@ -202,29 +137,31 @@ textarea {
   box-sizing: border-box;
   width: 100%;
   border-radius: 4px;
-  border: 1px solid white;
+  border: 1px solid black;
   padding: 10px 15px;
   margin-bottom: 10px;
   font-size: 14px;
 }
 
 label {
-  line-height: 2;
+  line-height: 1;
   text-align: left;
   display: block;
   margin-bottom: 13px;
   margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 input[type="submit"] {
   background: #874F3E;
   text-transform: uppercase;
   border: none;
-  margin-top: 40px;
-  padding: 20px;
-  font-size: 18px;
-  letter-spacing: 10px;
-  font-weight: 500;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 24px;
+  letter-spacing: 5px;
+  font-weight: 600;
 }
 
 input[type="submit"]:hover {
@@ -247,11 +184,4 @@ input[type="submit"]:active {
 
 footer h2 {
   font-size: 20px;
-}
-
- /* Smaller screens */
-@media screen and (max-width: 992px) {
-  .main-content img {
-    max-width: 95%;
-  }
 }

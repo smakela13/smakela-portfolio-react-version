@@ -4,7 +4,7 @@ import emailjs, {init} from 'emailjs-com';
 init(process.env.REACT_APP_USER_ID);
 
 const Contact = () => {
-  const [statusMessage, setStatusMessage] = useState('Message');
+  const [statusMessage, setStatusMessage] = useState();
 
   function sendEmail(e) {
 		e.preventDefault();
@@ -41,9 +41,10 @@ const Contact = () => {
   return (
 		<div>
 			<section className='main-content-box'>
-				<h2 id='about-me'>Contact Me</h2>
+				<h2>Contact Me</h2>
 				<form onSubmit={sendEmail} id='contact'>
-					<label>Name:</label>
+					<label>Name:
+					</label>
 					<input type='text' name='from_name' required />
 
 					<label>Email Address:</label>
@@ -56,7 +57,7 @@ const Contact = () => {
 
 					<label>Message:</label>
 					<textarea type='text' name='message' maxLength='1500' required />
-					
+
 					<p className='status-message'>{statusMessage}</p>
 					<input type='submit' value='Send' />
 				</form>

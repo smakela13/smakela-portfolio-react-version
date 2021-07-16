@@ -72,11 +72,10 @@ const renderProjects = () => {
 
 const Portfolio = () => {
 	return (
-			<div className="col-md-12 py-2">
-				<div className="row">
-					{renderProjects()}
-				</div>
-			</div>
+		<div className='main-content-box'>
+			<h2>Portfolio</h2>
+			<div className='row'>{renderProjects()}</div>
+		</div>
 	);
 };
 
