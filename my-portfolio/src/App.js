@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import {HashRouter as Router, Switch, Route} from 'react-router-dom';
+import createHistory from 'history/createBrowserHistory';
 import About from './pages/about-me';
 import Contact from './pages/contact-me';
 import Portfolio from './pages/portfolio';
@@ -10,7 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-		<Router>
+		<Router history={createHistory({ basename: process.env.PUBLIC_URL })}>
 			<div className='supDiv'>
 				<Navbar />
 				<Switch>
