@@ -44,17 +44,21 @@ const projectList = [
 	},
 ];
 
-const Portfolio = () => {
-	projectList.map((project, i) => (
-		<Project key={i} {...project} />
-	));
-
+const renderPortfolio = () => {
 	return (
-		<div>
-			{projectList.map((project, i) => (
-		<Project key={i} {...project} />
-	))}
-		</div>
+		projectList.map((project, i) => {
+			return (
+				<Project key={i} project={project} />
+			)
+		})
+	)
+};
+
+const Portfolio = () => {
+	return (
+	<>
+			{renderPortfolio()}
+	</>
 	);
 };
 

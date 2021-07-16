@@ -1,29 +1,23 @@
-import {Button} from 'bootstrap'
 import React from 'react';
-import { Card, Row, Col } from 'react-bootstrap';
+import { CardGroup, Button, Card } from 'react-bootstrap';
 
 const Project = ({project}) => {
 	if (project) {
 		return (
-			<>
-				<Row xs={1} md={2} className='g-4'>
-					{Array.from({length: 4}).map((_, idx) => (
-						<Col>
-							<Card>
-								<Card.Img variant='top' src={project.image} alt={project.description} />
-								<Card.Body>
-									<Card.Title>{project.title}</Card.Title>
-									<Card.Text>
-										{project.description}
-										<Button href={project.repo}>Repository</Button>
-										<Button href={project.url}>Deployed Project</Button>
-									</Card.Text>
-								</Card.Body>
-							</Card>
-						</Col>
-					))}
-				</Row>
-			</>
+				<CardGroup style={{display: 'flex', flexDirection: 'row', justifyContent: 'center', maxWidth: '30em', marginBottom: '2px' }}>
+					<Card style={{flex: 1}}>
+						<Card.Img variant='top' style={{width: '100%'}} src={project.image} alt={project.description} />
+						<Card.Body>
+							<Card.Title className='card-title'>{project.title}</Card.Title>
+							<Card.Text className='card-text'>
+								{project.description}
+								<br />
+								<Button className='my-1' href={project.repo}>Repository</Button> <br />
+								<Button href={project.url}>Deployed Project</Button>
+							</Card.Text>
+						</Card.Body>
+					</Card>
+				</CardGroup>
 		)
 	}
 };
