@@ -1,18 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #887a6f;
   min-height: 100vh;
@@ -55,14 +40,12 @@
 .supDiv {
   display: flex;
   flex-direction: column;
-  background: #887a6f;
+  background: var(--middleGrey);
   height: 100vh;
 }
 
 html {
     background-color: var(--middleGrey);
-    display: flex;
-    flex-direction: column;
     justify-content: flex-start;
     height: 100%;
 }
@@ -103,11 +86,9 @@ a:hover {
 .header {
   padding: 20px;
   background-color: var(--raisinBlack);
-  background-image: linear-gradient(315deg, #494949 10%, var(--raisinBlack) 54%);
-  margin-bottom: 1em;
+  background-image: linear-gradient(315deg, #494949 18%, var(--raisinBlack) 54%);
+  margin-bottom: .5em;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .header-nav {

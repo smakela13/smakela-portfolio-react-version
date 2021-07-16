@@ -1,24 +1,43 @@
 import React from 'react';
-import { CardGroup, Button, Card } from 'react-bootstrap';
+import { Container, CardGroup, Button, Card } from 'react-bootstrap';
 
-const Project = ({project}) => {
+const Project = ({ project }) => {
 	if (project) {
 		return (
-				<CardGroup style={{display: 'flex', flexDirection: 'row', justifyContent: 'center', maxWidth: '30em', marginBottom: '2px' }}>
-					<Card style={{flex: 1}}>
-						<Card.Img variant='top' style={{width: '100%'}} src={project.image} alt={project.description} />
+			<Container
+				style={{
+					display: 'flex',
+					justifyContent: 'center',
+					width: '32em',
+					marginBottom: '5px',
+				}}
+				fluid>
+				<CardGroup>
+					<Card>
+						<Card.Header as='h3' className='card-title'>
+							{project.title}
+						</Card.Header>
+						<Card.Img
+							variant='top'
+							style={{ width: '100%' }}
+							src={project.image}
+							alt={project.description}
+						/>
 						<Card.Body>
-							<Card.Title className='card-title'>{project.title}</Card.Title>
 							<Card.Text className='card-text'>
 								{project.description}
-								<br />
-								<Button className='my-1' href={project.repo}>Repository</Button> <br />
-								<Button href={project.url}>Deployed Project</Button>
 							</Card.Text>
 						</Card.Body>
+						<Card.Footer>
+							<Button className='mx-1' href={project.repo}>
+								Repository
+							</Button>
+							<Button href={project.url}>Deployed Project</Button>
+						</Card.Footer>
 					</Card>
 				</CardGroup>
-		)
+			</Container>
+		);
 	}
 };
 

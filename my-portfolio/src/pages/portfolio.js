@@ -23,7 +23,7 @@ const projectList = [
 		description:
 			'A workout tracker to log multiple exercises. Written using Express.js, Mongoose, Node.js, MongoDB Atlas, HTML, and CSS. Deployed on Heroku.',
 		url: 'https://frozen-anchorage-27658.herokuapp.com/',
-		image: '/tic-tac-toe-screenshot.png',
+		image: 'last-workout-screenshot.png',
 		repo: 'https://github.com/smakela13/workout-tracker',
 	},
 	{
@@ -42,9 +42,25 @@ const projectList = [
 		image: 'smakela-weather-dashboard.png',
 		repo: 'https://github.com/smakela13/weather-dashboard',
 	},
+	{
+		title: 'Work Day Scheduler',
+		description:
+			'Work day scheduler to help plan your day written with jQuery, MomentJS, Bootstrap, and HTML.',
+		url: 'https://smakela13.github.io/work-day-calendar/index.html',
+		image: 'work-day-scheduler.png',
+		repo: 'https://github.com/smakela13/work-day-calendar',
+	},
+	{
+		title: 'JavaScript Quiz',
+		description:
+			'Quiz about JavaScript written in JavaScript, HTML5, and CSS.',
+		url: 'https://smakela13.github.io/javascript-quiz/index.html',
+		image: 'javascript-quiz.png',
+		repo: 'https://github.com/smakela13/javascript-quiz',
+	},
 ];
 
-const renderPortfolio = () => {
+const renderProjects = () => {
 	return (
 		projectList.map((project, i) => {
 			return (
@@ -56,9 +72,11 @@ const renderPortfolio = () => {
 
 const Portfolio = () => {
 	return (
-	<>
-			{renderPortfolio()}
-	</>
+			<div className="col-md-12 py-2">
+				<div className="row">
+					{renderProjects()}
+				</div>
+			</div>
 	);
 };
 
