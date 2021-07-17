@@ -109,7 +109,7 @@ p {
 }
 
 .card-text {
-  text-align: justify;
+  text-align: center;
   color: var(--raisinBlack);
   font-size: 18px;
 }
