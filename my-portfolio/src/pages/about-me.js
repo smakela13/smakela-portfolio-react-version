@@ -9,7 +9,7 @@ const About = () => {
 				<Image
 					className='about-img'
 					src={process.env.PUBLIC_URL + '/Soma-Makela.jpg'}
-					alt='Soma Mäkelä'
+					alt='picture of Soma Mäkelä'
 					roundedCircle
 					fluid
 				/>
@@ -48,9 +48,9 @@ const About = () => {
 						Heroku
 					</p>
 					<p>
-						<span>Tools:</span> Node.js, React.js, Express.js, Handlebars.js,
-						Sequelize, Git, Tailwind CSS, Materialize CSS, Bootstrap,
-						Mongoose, Apollo GraphQL, APIs, Google Lighthouse,
+						<span>Tools:</span> Node.js, React.js, Express.js,
+						Handlebars.js, Sequelize, Git, Tailwind CSS, Materialize CSS,
+						Bootstrap, Mongoose, Apollo GraphQL, APIs, Google Lighthouse,
 						Progressive Web Apps, jQuery, Flask, SQLAlchemy, Jinja2, AWS
 					</p>
 				</div>
