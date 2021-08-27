@@ -14,7 +14,7 @@ const Project = ({ project }) => {
 				fluid>
 				<CardGroup>
 					<Card>
-						<Card.Header as='h3' className='card-title'>
+						<Card.Header as='h2' className='card-title'>
 							{project.title}
 						</Card.Header>
 						<Card.Img

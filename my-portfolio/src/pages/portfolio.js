@@ -61,19 +61,15 @@ const projectList = [
 ];
 
 const renderProjects = () => {
-	return (
-		projectList.map((project, i) => {
-			return (
-				<Project key={i} project={project} />
-			)
-		})
-	)
+	return projectList.map((project, i) => {
+		return <Project key={i} project={project} />;
+	});
 };
 
 const Portfolio = () => {
 	return (
 		<div className='main-content-box'>
-			<h2>Portfolio</h2>
+			<h1>Portfolio</h1>
 			<div className='row'>{renderProjects()}</div>
 		</div>
 	);
