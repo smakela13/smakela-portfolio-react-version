@@ -30,7 +30,7 @@ const Header = () => {
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls='responsive-navbar-nav' />
 				<Navbar.Collapse id='responsive-navbar-nav'>
-					<Nav className='ml-auto'>
+					<Nav className='ml-auto' aria-label='Navigation'>
 						<Navigation />
 					</Nav>
 				</Navbar.Collapse>
