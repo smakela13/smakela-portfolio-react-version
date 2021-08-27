@@ -36,7 +36,7 @@ const Footer = () => {
 					/>
 				</a>
 				<h2>Made with ❤️️ by Soma Mäkelä</h2>
-				<p>&copy; 2021 Soma Mäkelä</p>
+				<p style={{color: '#000'}}>&copy; 2021 Soma Mäkelä</p>
 			</footer>
 		</>
 	);
