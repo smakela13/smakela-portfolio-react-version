@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import {Switch, Route} from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import About from './pages/about-me';
 import Contact from './pages/contact-me';
 import Portfolio from './pages/portfolio';
@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {
-  return (
+	return (
 		<div className='supDiv'>
 			<Header />
 			<Switch>
@@ -19,7 +19,7 @@ function App() {
 			</Switch>
 			<Footer />
 		</div>
-  );
+	);
 }
 
 export default App;
