@@ -1,11 +1,11 @@
 import React from 'react';
-import {Image} from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
 
 const About = () => {
 	return (
 		<div>
 			<section className='main-content-box'>
-				<h2>About Me</h2>
+				<h1>About Me</h1>
 				<Image
 					className='about-img'
 					src={process.env.PUBLIC_URL + '/Soma-Makela.jpg'}
@@ -32,26 +32,26 @@ const About = () => {
 						are growing every day.
 					</p>
 					<p>
-						Take a look at what I've included in my portfolio.
-						You can also view my GitHub repository for more projects. Feel
-						free to contact me via the Contact form or through LinkedIn.
+						Take a look at what I've included in my portfolio. You can
+						also view my GitHub repository for more projects. Feel free to
+						contact me via the Contact form or through LinkedIn.
 					</p>
 				</div>
-				<h3>Skills</h3>
+				<h2>Skills</h2>
 				<div className='about-text'>
 					<p>
-						<b>Languages:</b> HTML5, CSS3, JavaScript ES6+, SQL, PHP,
-						Python
+						<span>Languages:</span> JavaScript ES6+, HTML5, CSS3, SQL,
+						Python, PHP
 					</p>
 					<p>
-						<b>Applications:</b> WordPress, GitHub, MySQL, MongoDB, Google
-						Lighthouse
+						<span>Applications:</span> GitHub, WordPress, MySQL, MongoDB,
+						Heroku
 					</p>
 					<p>
-						<b>Tools:</b> Tailwind CSS, Materialize CSS, Bootstrap, React
-						Bootstrap, Node.js, React.js, Git, Express.js, Sequelize,
-						Handlebars.js, jQuery, Heroku, Progressive Web Apps, Visual
-						Studio Code, APIs, Windows/Mac/Linux.
+						<span>Tools:</span> Node.js, React.js, Express.js, Handlebars.js,
+						Sequelize, Git, Tailwind CSS, Materialize CSS, Bootstrap,
+						Mongoose, Apollo GraphQL, APIs, Google Lighthouse,
+						Progressive Web Apps, jQuery, Flask, SQLAlchemy, Jinja2, AWS
 					</p>
 				</div>
 			</section>
