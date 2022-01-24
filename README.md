@@ -15,7 +15,7 @@ Welcome to the React version of my portfolio! This website showcases the informa
 
 ![Soma Makela's Portfolio](./assets/images/smakela-portfolio-screenshot.png)
 
-Navigate to [Soma Makela's Portfolio](https://smakela13.github.io/smakela-portfolio-react-version) and view the web page.
+Navigate to [Soma Makela's Portfolio](https://somamakela.com) and view the web page.
 
 ## Credits
 
