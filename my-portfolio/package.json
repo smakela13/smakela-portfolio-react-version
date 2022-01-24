@@ -1,7 +1,7 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
-  "homepage": "https://smakela13.github.io/smakela-portfolio-react-version/",
+  "homepage": "https://somamakela.com",
   "private": true,
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.1.14",
