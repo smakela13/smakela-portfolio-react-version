@@ -1,23 +1,20 @@
 {
   "files": {
     "main.css": "https://smakela13.github.io/smakela-portfolio-react-version/static/css/main.2a1490fc.chunk.css",
-    "main.js": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/main.b898d275.chunk.js",
-    "main.js.map": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/main.b898d275.chunk.js.map",
+    "main.js": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/main.f101810b.chunk.js",
+    "main.js.map": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/main.f101810b.chunk.js.map",
     "runtime-main.js": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/runtime-main.bc37c0f2.js",
     "runtime-main.js.map": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/runtime-main.bc37c0f2.js.map",
-    "static/css/2.4c97ca4f.chunk.css": "https://smakela13.github.io/smakela-portfolio-react-version/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.bac5eeab.chunk.js": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/2.bac5eeab.chunk.js",
-    "static/js/2.bac5eeab.chunk.js.map": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/2.bac5eeab.chunk.js.map",
+    "static/js/2.edcad202.chunk.js": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/2.edcad202.chunk.js",
+    "static/js/2.edcad202.chunk.js.map": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/2.edcad202.chunk.js.map",
     "index.html": "https://smakela13.github.io/smakela-portfolio-react-version/index.html",
-    "static/css/2.4c97ca4f.chunk.css.map": "https://smakela13.github.io/smakela-portfolio-react-version/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.2a1490fc.chunk.css.map": "https://smakela13.github.io/smakela-portfolio-react-version/static/css/main.2a1490fc.chunk.css.map",
-    "static/js/2.bac5eeab.chunk.js.LICENSE.txt": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/2.bac5eeab.chunk.js.LICENSE.txt"
+    "static/js/2.edcad202.chunk.js.LICENSE.txt": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/2.edcad202.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bc37c0f2.js",
-    "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.bac5eeab.chunk.js",
+    "static/js/2.edcad202.chunk.js",
     "static/css/main.2a1490fc.chunk.css",
-    "static/js/main.b898d275.chunk.js"
+    "static/js/main.f101810b.chunk.js"
   ]
 }
