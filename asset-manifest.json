@@ -1,20 +1,17 @@
 {
   "files": {
-    "main.css": "https://smakela13.github.io/smakela-portfolio-react-version/static/css/main.2a1490fc.chunk.css",
-    "main.js": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/main.f101810b.chunk.js",
-    "main.js.map": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/main.f101810b.chunk.js.map",
+    "main.js": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/main.d11a8297.chunk.js",
+    "main.js.map": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/main.d11a8297.chunk.js.map",
     "runtime-main.js": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/runtime-main.bc37c0f2.js",
     "runtime-main.js.map": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/runtime-main.bc37c0f2.js.map",
-    "static/js/2.edcad202.chunk.js": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/2.edcad202.chunk.js",
-    "static/js/2.edcad202.chunk.js.map": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/2.edcad202.chunk.js.map",
+    "static/js/2.351a0b72.chunk.js": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/2.351a0b72.chunk.js",
+    "static/js/2.351a0b72.chunk.js.map": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/2.351a0b72.chunk.js.map",
     "index.html": "https://smakela13.github.io/smakela-portfolio-react-version/index.html",
-    "static/css/main.2a1490fc.chunk.css.map": "https://smakela13.github.io/smakela-portfolio-react-version/static/css/main.2a1490fc.chunk.css.map",
-    "static/js/2.edcad202.chunk.js.LICENSE.txt": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/2.edcad202.chunk.js.LICENSE.txt"
+    "static/js/2.351a0b72.chunk.js.LICENSE.txt": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/2.351a0b72.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bc37c0f2.js",
-    "static/js/2.edcad202.chunk.js",
-    "static/css/main.2a1490fc.chunk.css",
-    "static/js/main.f101810b.chunk.js"
+    "static/js/2.351a0b72.chunk.js",
+    "static/js/main.d11a8297.chunk.js"
   ]
 }
