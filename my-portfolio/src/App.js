@@ -5,8 +5,6 @@ import { Switch, Route } from 'react-router-dom';
 import About from './pages/about-me';
 import Contact from './pages/contact-me';
 import Portfolio from './pages/portfolio';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
 
 function App() {
 	return (
