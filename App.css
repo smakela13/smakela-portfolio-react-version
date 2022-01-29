@@ -84,6 +84,11 @@ p {
   padding: 2px;
 }
 
+a {
+  color: var(--raisinBlack);
+  text-decoration: underline solid var(--raisinBlack);
+}
+
 /* Portfolio */
 .card {
   background-color: #9DA5A8;
