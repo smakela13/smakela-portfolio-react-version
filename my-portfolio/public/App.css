@@ -1,0 +1,192 @@
+/* Page styles */
+:root {
+    --middleGrey: #887a6f;
+    --quickSilver: #9DA5A8;
+    --champagne: #F4EFC9;
+    --chestnut: #874F3E;
+    --raisinBlack: #1B1C21;
+}
+
+.supDiv {
+  display: flex;
+  flex-direction: column;
+  background: var(--middleGrey);
+  height: 100vh;
+}
+
+html {
+    background-color: var(--middleGrey);
+    justify-content: flex-start;
+    height: 100%;
+}
+
+h1 {
+  margin-bottom: 15px;
+  margin-right: 20px;
+  font-size: 36px;
+  font-family: 'Montserrat', Calibri, 'Trebuchet MS', sans-serif;
+  color: var(--raisinBlack);
+}
+
+h2 {
+  margin-bottom: 15px;
+  margin-right: 20px;
+  font-size: 30px;
+  font-family: 'Montserrat', Calibri, 'Trebuchet MS', sans-serif;
+  color: var(--raisinBlack);
+}
+
+p {
+  font-size: 18px;
+  font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  line-height: 150%;
+}
+
+/* Header, header nav */
+.header {
+  padding: 15px;
+  background-color: var(--raisinBlack);
+  background-image: linear-gradient(315deg, #494949 18%, var(--raisinBlack) 54%);
+  margin-bottom: .5em;
+  display: flex;
+}
+
+#responsive-navbar-nav > div > a.portfolio-nav-links.active.nav-link {
+  color: #F4EFC9;
+  text-decoration: underline solid var(--chestnut);
+  text-decoration-thickness: 7px;
+  font-size: 30px;
+}
+
+/* Main Content */
+.main-content-box {
+  flex: 1;
+  margin: auto;
+  margin-bottom: 2em;
+  background-color: var(--champagne);
+  padding: 20px;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px var(--raisinBlack);
+}
+
+/* About Me */
+.about-img {
+  float: left;
+  padding: 0 10px 2px 0;
+  height: auto;
+}
+
+.about-text {
+  flex: 1 1 auto;
+  padding: 2px;
+}
+
+/* Portfolio */
+.card {
+  background-color: #9DA5A8;
+  padding: 1px;
+}
+
+.card-header {
+  width: 100%;
+  background-color: var(--middleGrey);
+  border-bottom: 1px solid var(--chestnut);
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-title {
+  background-color: var(--middleGrey);
+  text-align: center;
+  color: var(--raisinBlack);
+  font-size: 24px;
+}
+
+.card-text {
+  text-align: center;
+  color: var(--raisinBlack);
+  font-size: 18px;
+}
+
+span {
+  font-weight: bold;
+}
+
+/* Contact */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid black;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+textarea {
+  height: 10em;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid black;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+label {
+  line-height: 1;
+  text-align: left;
+  display: block;
+  margin-bottom: 13px;
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+input[type="submit"] {
+  background: #874F3E;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 24px;
+  letter-spacing: 5px;
+  font-weight: 600;
+}
+
+input[type="submit"]:hover {
+  background: #9DA5A8;
+}
+
+input[type="button"]:active,
+input[type="submit"]:active {
+  transition: 0.3s all;
+  transform: translateY(3px);
+  border: 1px solid transparent;
+  opacity: 0.8;
+}
+
+/* Footer */
+.footer {
+  margin-top: auto;
+  text-align: center;
+}
+
+footer h2 {
+  font-size: 20px;
+  color: #000;
+}
