@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/main.af487b5d.chunk.js",
-    "main.js.map": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/main.af487b5d.chunk.js.map",
-    "runtime-main.js": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/runtime-main.bc37c0f2.js",
-    "runtime-main.js.map": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/runtime-main.bc37c0f2.js.map",
-    "static/js/2.351a0b72.chunk.js": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/2.351a0b72.chunk.js",
-    "static/js/2.351a0b72.chunk.js.map": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/2.351a0b72.chunk.js.map",
-    "index.html": "https://smakela13.github.io/smakela-portfolio-react-version/index.html",
-    "static/js/2.351a0b72.chunk.js.LICENSE.txt": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/2.351a0b72.chunk.js.LICENSE.txt"
+    "main.js": "https://somamakela.com/static/js/main.387e625a.chunk.js",
+    "main.js.map": "https://somamakela.com/static/js/main.387e625a.chunk.js.map",
+    "runtime-main.js": "https://somamakela.com/static/js/runtime-main.6d13ac7f.js",
+    "runtime-main.js.map": "https://somamakela.com/static/js/runtime-main.6d13ac7f.js.map",
+    "static/js/2.351a0b72.chunk.js": "https://somamakela.com/static/js/2.351a0b72.chunk.js",
+    "static/js/2.351a0b72.chunk.js.map": "https://somamakela.com/static/js/2.351a0b72.chunk.js.map",
+    "index.html": "https://somamakela.com/index.html",
+    "static/js/2.351a0b72.chunk.js.LICENSE.txt": "https://somamakela.com/static/js/2.351a0b72.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.bc37c0f2.js",
+    "static/js/runtime-main.6d13ac7f.js",
     "static/js/2.351a0b72.chunk.js",
-    "static/js/main.af487b5d.chunk.js"
+    "static/js/main.387e625a.chunk.js"
   ]
 }
