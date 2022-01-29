@@ -13,10 +13,26 @@ const projectList = [
 	{
 		title: 'Buddy Finder',
 		description:
-			'A search engine with a map to adopt the right pet for you. Features dynamically updated HTML and CSS powered by Materialize CSS, JavaScript, and uses server-side APIs: PetFinder, Leaflet.JS, and Mapbox.',
+			'A search engine with a map to adopt the right pet for you. Features dynamically updated HTML and CSS powered by Materialize CSS, JavaScript, and uses the server-side APIs: PetFinder, Leaflet.JS, and Mapbox.',
 		url: 'https://smakela13.github.io/project-buddy-finder/',
 		image: '/project-buddy-finder-history-screenshot_1.png',
 		repo: 'https://github.com/smakela13/project-buddy-finder',
+	},
+	{
+		title: 'Java Tech News',
+		description:
+			'Blog that allows for login, sign-up, posting, and more written with Java, JavaScript, HTML5, CSS, Spring Boot, MySQL, Thymeleaf, and Heroku.',
+		url: 'https://java-tech-news.herokuapp.com/',
+		image: '/java-tech-news.png',
+		repo: 'https://github.com/smakela13/java-tech-news',
+	},
+	{
+		title: 'Google Books Search Engine',
+		description:
+			'Google Books API search engine helps readers find new books and save them to their profile. Built using MERN stack, Bootstrap, Apollo GraphQL, and Google Books API.',
+		url: 'https://intense-woodland-01867.herokuapp.com/',
+		image: '/google-books-screenshot.png',
+		repo: 'https://github.com/smakela13/google-books-search-engine',
 	},
 	{
 		title: 'Workout Tracker',
