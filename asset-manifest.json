@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/main.59e5e315.chunk.js",
-    "main.js.map": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/main.59e5e315.chunk.js.map",
+    "main.js": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/main.446142e5.chunk.js",
+    "main.js.map": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/main.446142e5.chunk.js.map",
     "runtime-main.js": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/runtime-main.bc37c0f2.js",
     "runtime-main.js.map": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/runtime-main.bc37c0f2.js.map",
     "static/js/2.351a0b72.chunk.js": "https://smakela13.github.io/smakela-portfolio-react-version/static/js/2.351a0b72.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.bc37c0f2.js",
     "static/js/2.351a0b72.chunk.js",
-    "static/js/main.59e5e315.chunk.js"
+    "static/js/main.446142e5.chunk.js"
   ]
 }
