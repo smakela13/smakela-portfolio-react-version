@@ -32,7 +32,7 @@ const About = () => {
 							repositories
 						</a> for more projects. Feel free to contact me via the <a
 							href='https://www.linkedin.com/in/soma-makela/'
-							aria-label='LinkedIn'
+							aria-label='Contact'
 							target='_blank'
 							rel='noreferrer'>Contact</a> form or through <a
 							href='https://www.linkedin.com/in/soma-makela/'
