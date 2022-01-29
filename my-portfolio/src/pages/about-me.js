@@ -15,43 +15,53 @@ const About = () => {
 				/>
 				<div className='about-text'>
 					<p>
-						Welcome to my portfolio! I'm a Full Stack Web Developer with a
-						publishing industry background.
+						Welcome to my portfolio! I'm a Software Engineer with a focus
+						on Frontend and Full Stack Development.
 					</p>
 					<p>
-						I’m detail oriented, great at collaborating with others, have
-						excellent written and verbal communication skills, and am a
-						strategic thinker. From my work as a Publisher, I’m keenly
-						familiar with deadlines and a fast-paced environment. Learning
-						is something I’m truly passionate about.
-					</p>
-					<p>
-						In terms of programming, I'm comfortable with HTML5, CSS,
-						JavaScript, GitHub, Node.js, WordPress, and responsive web
-						design. I am familiar with Python, PHP, and MySQL. My skills
-						are growing every day.
+						I'm detail oriented, great at collaborating with others, and a
+						strategic thinker when meeting tight deadlines. My passion for
+						learning helps my skills grow every day.
 					</p>
 					<p>
 						Take a look at what I've included in my portfolio. You can
-						also view my GitHub repository for more projects. Feel free to
-						contact me via the Contact form or through LinkedIn.
+						also view my GitHub
+						<a
+							href='https://github.com/smakela13?tab=repositories'
+							target='_blank'
+							aria-label='Repositories'
+							rel='noreferrer'>
+							repositories
+						</a>
+						for more projects. Feel free to contact me via the Contact
+						form or through
+						<a
+							href='https://www.linkedin.com/in/soma-makela/'
+							aria-label='LinkedIn'
+							target='_blank'
+							rel='noreferrer'>
+							LinkedIn
+						</a>
+						.
 					</p>
 				</div>
 				<h2>Skills</h2>
 				<div className='about-text'>
 					<p>
-						<span>Languages:</span> JavaScript ES6+, HTML5, CSS3, SQL,
-						Python, PHP
+						<span>Languages:</span> JavaScript ES6+, HTML5, CSS3, Java,
+						SQL, Python
 					</p>
 					<p>
-						<span>Applications:</span> GitHub, WordPress, MySQL, MongoDB,
-						Heroku
+						<span>Applications:</span> GitHub, WordPress, Heroku, Visual
+						Studio Code, Eclipse
 					</p>
 					<p>
-						<span>Tools:</span> Node.js, React.js, Express.js,
-						Handlebars.js, Sequelize, Git, Tailwind CSS, Materialize CSS,
-						Bootstrap, Mongoose, Apollo GraphQL, APIs, Google Lighthouse,
-						Progressive Web Apps, jQuery, Flask, SQLAlchemy, Jinja2, AWS
+						<span>Tools and Frameworks:</span> Node.js, React.js,
+						Express.js, MongoDB, JSX, Handlebars.js, Git, Mongoose ODM,
+						Tailwind CSS, Materialize CSS, Bootstrap, Sequelize, MySQL,
+						Oracle DB, Spring Boot, Thymeleaf, jQuery, Apollo GraphQL,
+						REST API, Google Lighthouse, Progressive Web Apps, Bash, Unix,
+						Flask, Apache Hadoop, Apache Spark, Apache Hive
 					</p>
 				</div>
 			</section>
