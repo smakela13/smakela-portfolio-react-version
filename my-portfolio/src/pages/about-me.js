@@ -15,34 +15,32 @@ const About = () => {
 				/>
 				<div className='about-text'>
 					<p>
-						Welcome to my portfolio! I'm a Software Engineer with a focus
-						on Frontend and Full Stack Development.
+						Welcome to my portfolio! I'm a Software Engineer with a focus on Frontend and Full Stack Development. 
 					</p>
 					<p>
-						I'm detail oriented, great at collaborating with others, and a
-						strategic thinker when meeting tight deadlines. My passion for
-						learning helps my skills grow every day.
+						I'm detail oriented, great at collaborating with others, and a strategic thinker when meeting tight deadlines.
+						My passion for coding and problem solving has led me to a career in software development, and I'm always looking for new opportunities to learn and grow.
 					</p>
 					<p>
-						Take a look at what I've included in my portfolio. You can
-						also view my GitHub
-						<a
+						Take a look at what I've included in my portfolio.
+						You can
+						also view my GitHub <a
 							href='https://github.com/smakela13?tab=repositories'
 							target='_blank'
 							aria-label='Repositories'
 							rel='noreferrer'>
 							repositories
-						</a>
-						for more projects. Feel free to contact me via the Contact
-						form or through
-						<a
+						</a> for more projects. Feel free to contact me via the <a
+							href='https://www.linkedin.com/in/soma-makela/'
+							aria-label='LinkedIn'
+							target='_blank'
+							rel='noreferrer'>Contact</a> form or through <a
 							href='https://www.linkedin.com/in/soma-makela/'
 							aria-label='LinkedIn'
 							target='_blank'
 							rel='noreferrer'>
 							LinkedIn
-						</a>
-						.
+						</a>. I look forward to hearing from you!
 					</p>
 				</div>
 				<h2>Skills</h2>
