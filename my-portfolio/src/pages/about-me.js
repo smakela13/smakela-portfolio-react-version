@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image } from 'react-bootstrap';
+import {Image} from 'react-bootstrap';
 
 const About = () => {
 	return (
@@ -30,11 +30,8 @@ const About = () => {
 							aria-label='Repositories'
 							rel='noreferrer'>
 							repositories
-						</a> for more projects. Feel free to contact me via the <a
-							href='https://www.linkedin.com/in/soma-makela/'
-							aria-label='Contact'
-							target='_blank'
-							rel='noreferrer'>Contact</a> form or through <a
+						</a> for more projects. Feel free to contact me via the
+						Contact page or through <a
 							href='https://www.linkedin.com/in/soma-makela/'
 							aria-label='LinkedIn'
 							target='_blank'
