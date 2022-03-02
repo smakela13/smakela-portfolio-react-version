@@ -6,7 +6,7 @@ const projectList = [
 		title: 'Tabletop Auction House (React Version)',
 		description:
 			'An auction house interface for roleplaying game masters and players to buy, sell, and trade in-game items for fun and profit. Written using JavaScript, React.js, Node.js, Express.js, MongoDB, Mongoose ODM, GraphQL, JSON Web Tokens, Apollo GraphQL, Faker.js, EmailJS, CSS-in-JS, React-Bootstrap, and Heroku with installable PWA functionality.',
-		url: 'https://tabletop-auction-house2.herokuapp.com/',
+		url: 'https://tabletop-auction-house-2.herokuapp.com/',
 		image: '/tabletop-auction-house-react-version.png',
 		repo: 'https://github.com/smakela13/tabletop-auction-house-react-edition',
 	},

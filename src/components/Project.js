@@ -29,10 +29,10 @@ const Project = ({ project }) => {
 							</Card.Text>
 						</Card.Body>
 						<Card.Footer className='card-header'>
-							<Button className='m-1 btn-dark align-middle' href={project.repo}>
+							<Button className='m-1 btn-dark align-middle' href={project.repo} target='_blank'>
 								Repository
 							</Button>
-							<Button className='m-1 btn-dark align-middle' href={project.url}>
+							<Button className='m-1 btn-dark align-middle' href={project.url} target='_blank'>
 								Deployed Project
 							</Button>
 						</Card.Footer>
