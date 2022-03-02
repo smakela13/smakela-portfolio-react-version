@@ -3,12 +3,20 @@ import Project from '../components/Project';
 
 const projectList = [
 	{
-		title: 'Tabletop Auction House',
+		title: 'Tabletop Auction House (React Version)',
 		description:
-			'An auction house interface for roleplaying game masters and players to buy, sell, and trade in-game items for fun and profit. Written using JavaScript, Handlebars, Sequelize, MySQL/JawsDB, Heroku, and Tailwind CSS.',
-		url: 'https://tabletop-auction-house.herokuapp.com/',
-		image: '/shop-screenshot.png',
-		repo: 'https://github.com/smakela13/Tabletop_Auction_House',
+			'An auction house interface for roleplaying game masters and players to buy, sell, and trade in-game items for fun and profit. Written using JavaScript, React.js, Node.js, Express.js, MongoDB, Mongoose ODM, GraphQL, JSON Web Tokens, Apollo GraphQL, Faker.js, EmailJS, CSS-in-JS, React-Bootstrap, and Heroku with installable PWA functionality.',
+		url: 'https://tabletop-auction-house2.herokuapp.com/',
+		image: '/tabletop-auction-house-react-version.png',
+		repo: 'https://github.com/smakela13/tabletop-auction-house-react-edition',
+	},
+	{
+		title: 'Google Books Search Engine',
+		description:
+			'Google Books API search engine helps readers find new books and save them to their profile. Built using MERN stack, Bootstrap, Apollo GraphQL, and Google Books API.',
+		url: 'https://intense-woodland-01867.herokuapp.com/',
+		image: '/google-books-screenshot.png',
+		repo: 'https://github.com/smakela13/google-books-search-engine',
 	},
 	{
 		title: 'Buddy Finder',
@@ -27,12 +35,12 @@ const projectList = [
 		repo: 'https://github.com/smakela13/java-tech-news',
 	},
 	{
-		title: 'Google Books Search Engine',
+		title: 'Tabletop Auction House',
 		description:
-			'Google Books API search engine helps readers find new books and save them to their profile. Built using MERN stack, Bootstrap, Apollo GraphQL, and Google Books API.',
-		url: 'https://intense-woodland-01867.herokuapp.com/',
-		image: '/google-books-screenshot.png',
-		repo: 'https://github.com/smakela13/google-books-search-engine',
+			'An auction house interface for roleplaying game masters and players to buy, sell, and trade in-game items for fun and profit. Written using JavaScript, Handlebars, Sequelize, MySQL/JawsDB, Heroku, and Tailwind CSS.',
+		url: 'https://tabletop-auction-house.herokuapp.com/',
+		image: '/shop-screenshot.png',
+		repo: 'https://github.com/smakela13/Tabletop_Auction_House',
 	},
 	{
 		title: 'Workout Tracker',

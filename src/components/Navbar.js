@@ -1,25 +1,25 @@
 import React from 'react';
 import {Nav} from 'react-bootstrap';
-import {LinkContainer} from 'react-router-bootstrap';
+import {Link} from 'react-router-dom';
 
 const Navigation = () => {
 	return (
 		<>
-			<LinkContainer to='/'>
-				<Nav.Link className='portfolio-nav-links active'>
+			<Link to='/'>
+				<Nav className='portfolio-nav-links active'>
 					About Me
-				</Nav.Link>
-			</LinkContainer>
-			<LinkContainer to='/portfolio'>
-				<Nav.Link	className='portfolio-nav-links active'>
+				</Nav>
+			</Link>
+			<Link to='/portfolio'>
+				<Nav className='portfolio-nav-links active'>
 					Portfolio
-				</Nav.Link>
-			</LinkContainer>
-			<LinkContainer to='/contact-me'>
-				<Nav.Link	className='portfolio-nav-links active'>
+				</Nav>
+			</Link>
+			<Link to='/contact-me'>
+				<Nav className='portfolio-nav-links active'>
 					Contact
-				</Nav.Link>
-			</LinkContainer>
+				</Nav>
+			</Link>
 		</>
 	);
 };

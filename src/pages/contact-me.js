@@ -38,11 +38,16 @@ const Contact = () => {
 			<section className='main-content-box'>
 				<h2>Contact Me</h2>
 				<form onSubmit={sendEmail} id='contact'>
-					
-					<label for='name'>Name:</label>
-					<input type='text' name='from_name' id='name' autoComplete='name' required />
+					<label htmlFor='name'>Name:</label>
+					<input
+						type='text'
+						name='from_name'
+						id='name'
+						autoComplete='name'
+						required
+					/>
 
-					<label for='email'>Email Address:</label>
+					<label htmlFor='email'>Email Address:</label>
 					<input
 						type='email'
 						id='email'
@@ -52,8 +57,13 @@ const Contact = () => {
 						required
 					/>
 
-					<label for='message'>Message:</label>
-					<textarea name='message' id='message' maxLength='1500' required />
+					<label htmlFor='message'>Message:</label>
+					<textarea
+						name='message'
+						id='message'
+						maxLength='1500'
+						required
+					/>
 
 					<p className='status-message'>{statusMessage}</p>
 					<input type='submit' value='Send' />

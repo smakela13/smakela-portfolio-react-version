@@ -11,9 +11,9 @@ function App() {
 		<div className='supDiv'>
 			<Header />
 			<Routes>
-				<Route exact path='/contact-me' component={Contact} />
-				<Route exact path='/portfolio' component={Portfolio} />
-				<Route exact path='/' component={About} />
+				<Route path='/contact-me' element={<Contact />} />
+				<Route path='/portfolio' element={<Portfolio />} />
+				<Route path='/' element={<About />} />
 			</Routes>
 			<Footer />
 		</div>

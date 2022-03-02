@@ -53,11 +53,13 @@ p {
   display: flex;
 }
 
-#responsive-navbar-nav > div > a.portfolio-nav-links.active.nav-link {
+
+#responsive-navbar-nav > div > a > div {
   color: #F4EFC9;
-  text-decoration: underline solid var(--chestnut);
+  text-decoration: none;
   text-decoration-thickness: 7px;
   font-size: 30px;
+  margin-right: 20px;
 }
 
 /* Main Content */
