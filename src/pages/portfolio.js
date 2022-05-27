@@ -74,14 +74,6 @@ const projectList = [
 		image: '/work-day-scheduler.png',
 		repo: 'https://github.com/smakela13/work-day-calendar',
 	},
-	{
-		title: 'JavaScript Quiz',
-		description:
-			'Quiz about JavaScript written in JavaScript, HTML5, and CSS.',
-		url: 'https://smakela13.github.io/javascript-quiz/index.html',
-		image: '/javascript-quiz.png',
-		repo: 'https://github.com/smakela13/javascript-quiz',
-	},
 ];
 
 const renderProjects = () => {
