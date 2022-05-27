@@ -77,8 +77,8 @@ p {
 /* About Me */
 .about-img {
   float: left;
-  padding: 0 10px 2px 0;
-  height: auto;
+  margin: 0 10px 2px 0;
+  width: 9.5em;
 }
 
 .about-text {
