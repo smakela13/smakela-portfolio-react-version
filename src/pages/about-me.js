@@ -8,18 +8,18 @@ const About = () => {
 				<h1>About Me</h1>
 				<Image
 					className='about-img'
-					src={process.env.PUBLIC_URL + '/Soma-Makela.jpg'}
+					src={process.env.PUBLIC_URL + '/Soma-Makela.png'}
 					alt='picture of Soma Mäkelä'
 					roundedCircle
 					fluid
 				/>
 				<div className='about-text'>
 					<p>
-						Welcome to my portfolio! I'm a Software Engineer with a focus on Frontend and Full Stack Development. 
+						Welcome to my portfolio! I'm a Full Stack Developer who loves frontend and full stack development. 
 					</p>
 					<p>
 						I'm detail oriented, great at collaborating with others, and a strategic thinker when meeting tight deadlines.
-						My passion for coding and problem solving has led me to a career in software development, and I'm always looking for new opportunities to learn and grow.
+						My passion for coding and problem solving has led me to a career in web development, and I'm always looking for opportunities to learn and grow.
 					</p>
 					<p>
 						Take a look at what I've included in my portfolio.
@@ -51,12 +51,12 @@ const About = () => {
 						Studio Code, Eclipse
 					</p>
 					<p>
-						<span>Tools and Frameworks:</span> Node.js, React.js,
+						<span>Tools and Frameworks:</span> Node.js, React.js, Angular,
 						Express.js, MongoDB, JSX, Handlebars.js, Git, Mongoose ODM,
 						Tailwind CSS, Materialize CSS, Bootstrap, Sequelize, MySQL,
 						Oracle DB, Spring Boot, Thymeleaf, jQuery, Apollo GraphQL,
 						REST API, Google Lighthouse, Progressive Web Apps, Bash, Unix,
-						Flask, Apache Hadoop, Apache Spark, Apache Hive
+						Flask
 					</p>
 				</div>
 			</section>
