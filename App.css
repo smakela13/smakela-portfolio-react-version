@@ -79,6 +79,7 @@ p {
   float: left;
   margin: 0 10px 2px 0;
   width: 9.5em;
+  height: auto;
 }
 
 .about-text {
