@@ -28,13 +28,6 @@ const Footer = () => {
 						alt='LinkedIn'
 					/>
 				</a>
-				<a href='https://www.twitter.com/smakela13' aria-label='Twitter'>
-					<Image
-						src={process.env.PUBLIC_URL + '/twitter-64.png'}
-						style={{width: '64px'}}
-						alt='Twitter'
-					/>
-				</a>
 				<h2>Made with ❤️️ by Soma Mäkelä</h2>
 				<p style={{color: '#000'}}>&copy; 2021 Soma Mäkelä</p>
 			</footer>
