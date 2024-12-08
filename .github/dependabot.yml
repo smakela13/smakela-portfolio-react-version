@@ -4,5 +4,6 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+    target-branch: "portfolio-update"
     allow:
       - dependency-type: "production"

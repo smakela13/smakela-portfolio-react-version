@@ -44,19 +44,19 @@ const About = () => {
 				<div className='about-text'>
 					<p>
 						<span>Languages:</span> JavaScript ES6+, HTML5, CSS3, Java,
-						SQL
+						SQL, Python
 					</p>
 					<p>
-						<span>Applications:</span> GitHub, WordPress, Visual
+						<span>Applications:</span> GitHub, WordPress, Heroku, Visual
 						Studio Code, Eclipse
 					</p>
 					<p>
-						<span>Tools and Frameworks:</span> Angular, React, Node.js,
+						<span>Tools and Frameworks:</span> Node.js, React.js, Angular,
 						Express.js, MongoDB, JSX, Handlebars.js, Git, Mongoose ODM,
 						Tailwind CSS, Materialize CSS, Bootstrap, Sequelize, MySQL,
-						Spring Boot, Thymeleaf, Apollo GraphQL, REST API, WCAG, 
-						Accessibility testing, Google Lighthouse, Progressive Web Apps, 
-						Bash, Unix, Jenkins
+						Oracle DB, Spring Boot, Thymeleaf, jQuery, Apollo GraphQL,
+						REST API, Google Lighthouse, Progressive Web Apps, Bash, Unix,
+						Flask
 					</p>
 				</div>
 			</section>
