@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "https://somamakela.com/static/js/main.efe7d17f.js",
+    "main.js": "https://somamakela.com/static/js/main.8100044f.js",
     "index.html": "https://somamakela.com/index.html",
-    "main.efe7d17f.js.map": "https://somamakela.com/static/js/main.efe7d17f.js.map"
+    "main.8100044f.js.map": "https://somamakela.com/static/js/main.8100044f.js.map"
   },
   "entrypoints": [
-    "static/js/main.efe7d17f.js"
+    "static/js/main.8100044f.js"
   ]
 }
